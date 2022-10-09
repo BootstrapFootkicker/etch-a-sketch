@@ -1,0 +1,27 @@
+.entire-grid-container{
+    display: flex;
+    flex-direction: column;
+    padding:30px;
+}
+
+.gridBox{
+    display: flex;
+    background-color: grey;
+    outline: solid 5px black;
+    height: 50px;
+    width: 50px;
+    flex-wrap: wrap;
+
+}
+
+
+
+.grid-container{
+    display: flex;
+    justify-content: center;
+
+}
+
+.hovered-grid-box{
+    background-color: red;
+}
