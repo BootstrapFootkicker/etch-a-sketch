@@ -1,6 +1,10 @@
 body {
     display: flex;
     flex-direction: column;
+
+
+
+
 }
 
 .button-container {
@@ -13,30 +17,30 @@ body {
 #entire-grid-container {
     display: flex;
     flex-direction: column;
-    align-items: center;
-    justify-content: center;
     padding: 30px;
     flex: 1;
-    flex-basis: 960px;
- 
 
 
 }
 
+
 .gridBox {
     display: flex;
     background-color: grey;
-    outline: solid 5px black;
-    height: 50px;
-    width: 50px;
-    flex-wrap: wrap;
+    outline: solid black 5px;
+
+
 
 }
 
 
 .grid-container {
+
     display: flex;
     justify-content: center;
+    align-items: center;
+
+
 
 }
 
