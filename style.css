@@ -1,10 +1,29 @@
-.entire-grid-container{
+body {
     display: flex;
     flex-direction: column;
-    padding:30px;
 }
 
-.gridBox{
+.button-container {
+    display: flex;
+    justify-content: center;
+
+
+}
+
+#entire-grid-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 30px;
+    flex: 1;
+    flex-basis: 960px;
+ 
+
+
+}
+
+.gridBox {
     display: flex;
     background-color: grey;
     outline: solid 5px black;
@@ -15,13 +34,13 @@
 }
 
 
-
-.grid-container{
+.grid-container {
     display: flex;
     justify-content: center;
 
 }
 
-.hovered-grid-box{
+.hovered-grid-box {
     background-color: red;
 }
+
